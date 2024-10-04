@@ -1,0 +1,7 @@
+inicio = input ('Olá!! Prazer conhece-lo, sou seu assistente virtual do restaurante!👨 Te ajudarei, ok?')
+nome = input ('Primeiramente digite seu nome para iniciarmos, por favor:')
+print('Prazer {} 💪'.format(nome))
+cardapio = input ('Nosso cardápio hoje é Ovo, Salada, Arroz e feijão. Para acompanhamento temos sorvete e outros tipos de doce! Digite um desses que você deseja, arroz ou feijão:')
+print('Certo, então {}. Correto?'.format(cardapio))
+cardapio2 = input ('Certo, digite um acompnhamento de prefêrencia:')
+print("Então ficou {} e {}, certo?".format(cardapio, cardapio2))
